@@ -18,16 +18,14 @@
 
 typedef struct _config
 {
-    long loadTime;        /* load time in µs */
-    long sleepTime;       /* sleep time in µs */
+    long loadTime;        /* load time in Âµs */
+    long sleepTime;       /* sleep time in Âµs */
 
     int cycles;  /* calculation cycles with the same sleep/load time */
     int rounds;  /* calculation rounds with iterated sleep/load time */
 
     int minCpuLoad;
     int maxCpuLoad;
-    int nlogLevel;
-    int nlogMode;
 }config;
 
 
